@@ -1,0 +1,29 @@
+{
+  "name": "ws-cv-ua/server-time",
+  "description": "Life Server Time widget",
+  "license": "MIT",
+  "homepage": "https://github.com/ws-cv-ua/server-time",
+  "stability":"stable",
+  "minimum-stability":"stable",
+  "authors": [
+    {
+      "name": "Web-Studio.cv.ua",
+      "email": "info@web-studio.cv.ua",
+      "homepage": "http://Web-Studio.cv.ua"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "wscvua\\ServerTime\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.0-dev"
+    }
+  }
+}
