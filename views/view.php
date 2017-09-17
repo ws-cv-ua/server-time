@@ -5,4 +5,4 @@ wscvua\ServerTime\ServerTimeAsset::register($this);
 $amount = time();
 $amount = (new \DateTime())->getTimestamp();
 ?>
-<div id="time" data-timestamp="<?= $amount; ?>"></div>
+<span id="time" data-timestamp="<?= $amount; ?>"></span>
