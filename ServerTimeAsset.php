@@ -5,7 +5,7 @@ use yii\web\AssetBundle;
 
 class ServerTimeAsset extends AssetBundle
 {
-    public $sourcePath = '@common/widgets/ServerTime';
+    public $sourcePath = '@vendor/ws-cv-ua/server-time';
 
     public $js = [
         'server-time.js'
